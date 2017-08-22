@@ -1,6 +1,6 @@
 {
   "name": "api-dialect",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "a wrapper of express request",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,8 @@
   "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.4",
-    "moment": "^2.18.1"
+    "moment": "^2.18.1",
+    "sequelize": "^3.30.4"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
