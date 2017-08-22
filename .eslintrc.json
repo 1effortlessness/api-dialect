@@ -32,7 +32,7 @@
         "block-scoped-var": "error", // 设置变量的使用环境
         "block-spacing": "error", // { body }
         "brace-style": [
-            "error",
+            "off",
             "1tbs"
         ],
         "callback-return": ["error", ["done", "cb"]],  // cb 需要加返回
