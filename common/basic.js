@@ -153,5 +153,9 @@ module.exports = {
     }
 
     return target
+  },
+
+  clearRedundancyFields (obj) {
+    return JSON.parse(JSON.stringify(obj))
   }
 }
