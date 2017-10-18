@@ -134,6 +134,9 @@ module.exports = {
    * @return {object}
    */
   dateFormat (obj, pattern, args) {
+    if (_.isEmpty(obj)) {
+      return obj
+    }
     let target = obj
 
     if (_.isArray(target)) {
