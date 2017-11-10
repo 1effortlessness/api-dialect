@@ -1,6 +1,6 @@
 {
   "name": "api-dialect",
-  "version": "0.0.8",
+  "version": "0.1.0",
   "description": "a wrapper of express request",
   "main": "./lib/index.js",
   "scripts": {
