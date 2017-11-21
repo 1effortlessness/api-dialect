@@ -160,5 +160,16 @@ module.exports = {
 
   clearRedundancyFields (obj) {
     return JSON.parse(JSON.stringify(obj))
+  },
+
+  /**
+   * 转化为数组
+   * @param {any} obj 任意格式
+   * @return {array}
+   */
+  toArray (obj) {
+    if (_.isArray(obj)) return obj
+    if (_.isString(obj) && _.includes(obj, ',')) return obj.trim().split(',')
+    return new Array(obj)
   }
 }
